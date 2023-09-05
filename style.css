@@ -24,7 +24,18 @@ h1 {
     color: rgb(249, 2, 2);
     flex: 1;
     margin: 0;
+    animation: 1s glow ease-in-out infinite alternate;
 }
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #f10202, 0 0 20px #f10202, 0 0 30px #f10202, 0 0 40px #f10202, 0 0 50px #f10202, 0 0 60px #f10202, 0 0 70px #f10202;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff, 0 0 80px #fff;
+    }
+  }
+
 #nav-ul {
     list-style-image: none;
 }
