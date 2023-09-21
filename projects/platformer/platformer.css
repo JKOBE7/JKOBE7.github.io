@@ -1,9 +1,10 @@
 body {
-  margin: 0px;
+  margin: white;
+  border:double
 }
 
 canvas {
-  background: url("https://i.pinimg.com/originals/7e/e5/e3/7ee5e34f8415793b62e243d88430b042.jpg");
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqXPbhQueA0qMI2R03N9wyokY9ojq7Bk4DvQ&usqp=CAU");
 }
 
 img {
