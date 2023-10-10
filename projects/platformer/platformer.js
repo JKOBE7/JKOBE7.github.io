@@ -47,13 +47,14 @@ createPlatform(100,700,100,10);
 createPlatform(200,575,100,10);
 createPlatform(300,450,100,10);
 createPlatform(400,325,100,10);
-createPlatform(75,150,1500,10);
+createPlatform(75,170,450,10);
+createPlatform(700,160,450,10);
 createPlatform(1100,450,100,10);
 createPlatform(600,325,100,10);
-createPlatform(700,450,100,10);
 createPlatform(800,325,100,10);
 createPlatform(900,450,100,10);
 createPlatform(1000,575,100,10);
+
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
@@ -62,8 +63,8 @@ createPlatform(1000,575,100,10);
     createCollectable("steve", 200, 450,0,0);
     createCollectable("max", 500, 200,0,0);
     createCollectable("diamond", 1000, 500,0,0);
-    createCollectable("max", 120, 500,0,0);
-    createCollectable 
+    createCollectable("max", 150, 50,0,0);
+    
     
 
     // TODO 3
